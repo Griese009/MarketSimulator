@@ -1,8 +1,8 @@
 #pragma once
+#ifndef Person_H
 #include <string>
 #include <vector>
 #include <iostream>
-
 
 struct goods {
 	std::string name;
@@ -29,3 +29,4 @@ public:
 	double getGoodsValue();
 };
 
+#endif // !Person_H

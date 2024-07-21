@@ -13,8 +13,8 @@ int main()
 {
     SetConsoleCP(65001);
     std::cout << "Hello World!\n";
-    Person buyer = Person("Marcus", "Galinski", 200.50);
-    Person seller = Person("Patrick", "Galinski", 100);
+    Person buyer = Person("John", "Doe", 200.50);
+    Person seller = Person("Max", "Mustermann", 100);
 
     seller.addItem(goods("PlayStation 5", 10.0));
     seller.addItem(goods("PlayStation X", 20.0));
