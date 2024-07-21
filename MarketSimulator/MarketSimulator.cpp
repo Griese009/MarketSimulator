@@ -3,15 +3,13 @@
 
 #include <iostream>
 #include <iomanip>
-#include <windows.h>
-#pragma execution_character_set( "utf-8" )
+
 
 
 #include "Person.h"
 
 int main()
 {
-    SetConsoleCP(65001);
     std::cout << "Hello World!\n";
     Person buyer = Person("John", "Doe", 200.50);
     Person seller = Person("Max", "Mustermann", 100);
